@@ -1,0 +1,35 @@
+{
+  "name": "chatGptIsolator",
+  "version": "0.9.0",
+  "author": "Bruspal",
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  },
+  "scripts": {
+    "start": "electron app.js",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "net.bruspal.chatGptIsolator",
+    "productName": "chatGptIsolator",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "app.js",
+      "package.json",
+      "node_modules/**/*",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
