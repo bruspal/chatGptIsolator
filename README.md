@@ -15,6 +15,6 @@ A quick done and simple container to run chatGPT in an isolated electron conatai
 
 ## Miscellaneous 
 
-[ ] : Set a licence  
+[X] : Set a licence  
 [X] : install and prepare app installer  
-[ ] : Make a succesful build  
+[ ] : Make a successful build
