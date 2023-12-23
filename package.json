@@ -2,8 +2,9 @@
   "name": "chatGptIsolator",
   "version": "0.9.0",
   "author": "Bruspal",
+  "main": "app.js",
   "devDependencies": {
-    "electron": "^28.1.0",
+    "electron": "^29.0.0-alpha.5",
     "electron-builder": "^24.9.1"
   },
   "scripts": {
@@ -19,7 +20,6 @@
     "files": [
       "app.js",
       "package.json",
-      "node_modules/**/*",
       "assets/**/*"
     ],
     "win": {
@@ -29,7 +29,8 @@
       "target": "dmg"
     },
     "linux": {
-      "target": "AppImage"
+      "target": "AppImage",
+      "icon": "assets/logo/GPTIsolator_256x256.png"
     }
   }
 }
