@@ -1,2 +1,4 @@
 /.idea/
 /embbedChatOpenAi.iml
+/dist/
+/node_modules/
