@@ -1,4 +1,4 @@
-# chatGPT Isolator
+# chatGPT Isolator v0.9.2
 ![GPTIsolator_64x64.png](assets%2Flogo%2FGPTIsolator_64x64.png)  
 A quick done and simple electron container to run chatGPT in an isolated environment.
 
@@ -8,8 +8,8 @@ A quick done and simple electron container to run chatGPT in an isolated environ
 
 [X] : Build base application  
 [X] : Create some placeholders assets for icons  
-[/] : Fix security issues  
-[ ] : Fix wrong icon in app windows  
+[X] : Fix security issues  
+[X] : Fix wrong icon in app windows  
 [ ] : Have a true logo  
 
 ## Miscellaneous 
